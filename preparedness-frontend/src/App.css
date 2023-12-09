@@ -1,23 +1,18 @@
-.entire-content {
-    background-image: url('assets/background-image.jpeg');
-}
-
-h1 {
+body{
+    background-image: url('./assets/background-image.jpeg')}
+.entire-content h1{
     color: white;
+    text-align: center;
     font-size: 50px;
-    display: flex;
-    justify-content: center;
 }
 
 .form {
-  text-align: center;
+    text-align: center;
 }
 
 .input Label {
     color: white;
     font-size: 35px;
-    display: flex;
-    justify-content: center;
 }
 
 .input Input {
@@ -33,4 +28,5 @@ h1 {
     width: 100px;
     padding: 10px;
     margin: 20px 10px 0px;
+    display: inline-block;
 }

@@ -20,9 +20,11 @@ const App = () => {
 
   return (
     <div className="entire-content">
+      <br/>
       <h1>Preparedness Assessment</h1>
       <div className="form">
         <div className="input">
+          <br/><br/>
           <Label for="name">Enter your name</Label>
           <Input type="text" onChange={handleChange} value={name}/>
         </div>
